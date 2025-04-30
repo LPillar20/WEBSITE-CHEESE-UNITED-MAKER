@@ -1,0 +1,416 @@
+
+.card{
+    width:160px; 
+    margin:10px; 
+    height: 445px; 
+    box-shadow: 0 0 9px ; 
+    padding: 15px 10px; 
+    transition: 0.5s;
+    text-align: center; 
+    border-radius: 10px;
+    background-color: rgb(235, 183, 15);
+}
+p{
+    transition: 1s;
+}
+p:hover{
+    transition: 0.5s;
+    transform: scale(1.030);
+}
+.contactcard{
+    width:200px; 
+    margin:20px 15px; 
+    height: 280px; 
+    box-shadow: 0 0 9px ; 
+    padding: 1px 15px; 
+    border-radius: 10px;
+    transition: 0.5s;
+    text-align: center; 
+    background-color: rgb(230, 178, 10)
+}
+.contactcard1{
+    width:250px; 
+    margin:10px 10px; 
+    height: 300px; 
+    box-shadow: 0 0 9px ; 
+    padding: 1px 15px; 
+    text-align: center; 
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: rgb(255, 217, 0);
+}
+.contactcard img{
+    width: 150px;
+    border-radius: 5px;
+}
+.contactcard1 img{
+    width: 150px;
+    border-radius: 5px;
+}
+.contactcard:hover{
+    transition: 0.5s;
+    transform: scale(1.050);
+    box-shadow: 0 0 0px ; 
+    border-radius: 0px;
+    background-color: rgb(255, 196, 0)
+}
+.contactcard1:hover{
+    transition: 0.5s;
+    transform: scale(1.050);
+    box-shadow: 0 0 0px ; 
+    border-radius: 0px;
+    background-color: rgb(255, 196, 0);
+}
+.Head {
+    text-align: center; 
+    font-size: 30px;
+    background-color: rgb(255, 196, 0);
+    padding: 10px;
+    color: rgb(255, 124, 1);
+    
+}
+.card:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 0px ; 
+    border-radius: 0px;
+    animation: HoveringRotate 1s;
+}
+.card img{
+    width: 120px;
+    height: 100px;
+}
+.product {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.harga {
+    background-color: rgb(250, 210, 79);
+    margin: 10px;
+    border-radius: 5px ;
+}
+.deskripsi{
+    text-align: justify; 
+    font-size: 14px;
+    background-color: rgb(235, 194, 61);
+    padding: 1px; 
+    height: 140px;
+    border-radius: 10px ;
+}
+
+
+button{
+    border-radius: 20px ;
+    cursor: pointer;
+    margin:5px;
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 210, 79);
+    
+}
+button:hover{
+    transform: scale(1.3);
+    background-color: rgb(240, 207, 147);
+    text-decoration: none;
+}
+@keyframes hover {
+    10% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1.050);
+  }
+}
+@keyframes HoveringRotate {
+    10% {
+        transform: rotate(1deg);
+    }
+    20% {
+        transform: rotate(-1deg);
+    }
+    30% {
+
+        transform: rotate(1deg);
+    }
+    40% {
+  
+        transform: rotate(-1deg);
+    }
+    50% {
+       
+        transform: rotate(1deg);
+    }
+    60% {
+   
+        transform: rotate(-1deg);
+    }
+    70% {
+       
+        transform: rotate(1deg);
+    }
+    80% {
+      
+        transform: rotate(-1deg);
+    }
+    90% {
+    
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: scale(1.050);
+        transform: rotate(-1deg);
+    }
+}
+  
+body{
+    margin: 0px;
+    padding: 1;
+    
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(245, 59, 3);
+
+}
+header img{
+    width: 60px;
+}
+section.location{
+    height: 800px;
+    background-image: url(PULAU.png);
+    background-size: 1400px 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+section.store{
+    height: 710px;
+    background-color: darkorange;
+}
+section.HOMO{
+    height: 1050px;
+    background-image: url(BGNEGRO.jpg);
+    background-size: 1400px 1400px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    padding-top: 10px;
+}
+section.contact{
+    height: 550px;
+    background-color: darkorange;
+}
+section.about{
+    height: 660px;
+    background-image: url(Background\ Cheese\ 1.jpg);
+    background-size: 1400px 1400px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+section.HOMO .Deskripsi4{
+    text-align: center;
+    color: rgb(192, 93, 0);
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    border-radius: 10px;
+    background-color: rgb(243, 175, 27);
+    padding: 10px;
+}
+section.HOMO .baton{
+    text-align: center;
+    color: rgb(192, 93, 0);
+    margin: auto;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    padding: 10px;
+}
+section.HOMO .welcome{
+    color: rgb(192, 93, 0);
+    font-size: 70px;
+    text-align: center;
+
+}
+section.HOMO a{
+    color: rgb(192, 93, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: rgb(245, 136, 35);
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+.HOMO img {
+    width: 300px;
+    height: 450px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    box-shadow: 10px 10px 1px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.HOMO img:hover{
+    animation: HoveringRotate 1s infinite;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutcard1 {
+    width: 500px; 
+    margin: 10px;
+    height: 400px; 
+    font-size: 29px;
+    box-shadow: 0 0 10px ; 
+    padding: 20px 40px; 
+    text-align: center; 
+    transition: 1s;
+    border-radius: 20px;
+    background-color: rgb(235, 183, 15);
+    
+}
+.aboutcard1:hover{
+    transition: 1s;
+    transform: scale(1.050);
+    box-shadow: 0 0 0px ; 
+    border-radius: 0px;
+}
+.aboutcard2:hover{
+    transition: 1s;
+    transform: scale(1.050);
+    box-shadow: 0 0 0px ; 
+    border-radius: 0px;
+}
+.deskripsi1 {
+    padding: 10px 10px;
+    font-size: 22px;
+    text-align: center;
+}
+.aboutcard2 {
+    width: 500px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 400px; 
+    font-size: 29px;
+    box-shadow: 0 0 10px ; 
+    padding: 20px 40px; 
+    transition: 1s;
+    text-align: center; 
+    background-color: rgb(235, 183, 15);
+}
+.aboutcard2 img{
+    height: 200px;
+    border-radius: 10px;
+}
+.deskripsi2 {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+nav a{
+    padding: 20px 25px;
+    text-decoration: none;
+    color: rgb(243, 166, 0);
+    float: right;
+    font-size: large;
+}
+nav a:hover{
+    background-color: rgb(201, 47, 0);
+    text-decoration: none;
+    transform: scale(1.050);
+}
+.banner{
+    padding: 12px;
+    color: rgb(243, 166, 0);
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    height: 50px;
+    background-color: rgb(245, 59, 3);
+
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 7px;
+}
+footer .medsos a{
+    color: rgb(243, 166, 0);
+    font-size: 30px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+footer .medsos a:hover{
+    background-color: rgb(201, 47, 0);
+    transition: 1s;
+    transform: scale(4);
+}
+.deskripsihome{
+    padding: 10px 5px;
+    text-decoration: none;
+    background-color: rgb(255, 174, 0);
+    float: right;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    display: flex;
+    width: 100%;
+    
+}
+
+.deskripsicarl{
+    padding: 10px 5px;
+    text-decoration: none;
+    background-color: rgb(255, 174, 0);
+    float: right;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+.aboutcard3 img{
+    height: 190px;
+    width: 290px;
+    border-radius: 10px;
+}
+.aboutcard3 {
+    width: 500px; 
+    height: 450px; 
+    font-size: 29px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px ; 
+    transition: 1s;
+    padding: 20px 40px;
+    text-align: center; 
+    background-color: rgb(235, 183, 15);
+    
+}
+.aboutcard3:hover{
+    transition: 1s;
+    transform: scale(1.050);
+}
+.deskripsi3 {
+    font-size: 20px;
+    text-align: center;
+    transition: 1s;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 0.03s;
+}
