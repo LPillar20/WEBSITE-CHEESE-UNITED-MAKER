@@ -175,6 +175,8 @@ header{
     width: 100%;
     justify-content: space-between;
     background-color: rgb(245, 59, 3);
+    position: fixed;
+    z-index: 4;
 
 }
 header img{
@@ -325,6 +327,7 @@ nav a{
     color: rgb(243, 166, 0);
     float: right;
     font-size: large;
+    
 }
 nav a:hover{
     background-color: rgb(201, 47, 0);
